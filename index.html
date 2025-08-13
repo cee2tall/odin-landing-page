@@ -6,25 +6,28 @@
     <title>Odin Project Landing Page</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
-  <body>
-    <div>
-      <!-- the header -->
-      <span>Header Logo</span>
-      <ul>
-        <li>header link one</li>
-        <li>header link two</li>
-        <li>header link three</li>
-      </ul>
-    </div>
-    <div>
-      <!-- section below the header -->
-      <div>
-        <h1>This website is awesome</h1>
-        <p>
-          This website has some subtext that goes here under the main title.
-          It's a smaller font and the color is lower contrast
-        </p>
-        <button>Sign up</button>
+  <body class="flex">
+    <div class="flex upper">
+      <header class="flex header">
+        <!-- the header -->
+        <span>Header Logo</span>
+        <ul class="flex">
+          <li><a href="#">header link one</a></li>
+          <li><a href="#">header link two</a></li>
+          <li><a href="#">header link three</a></li>
+        </ul>
+      </header>
+      <div class="flex main">
+        <!-- section below the header -->
+        <div class="flex main-left">
+          <h1>This website is awesome</h1>
+          <p>
+            This website has some subtext that goes here under the main title.
+            It's a smaller font and the color is lower contrast
+          </p>
+          <button>Sign up</button>
+        </div>
+        <div class="flex placeholder">this is a placeholder for an image</div>
       </div>
     </div>
     <div>
