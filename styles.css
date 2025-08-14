@@ -49,7 +49,9 @@ a {
 
 .main,
 header,
-.information {
+.information,
+.quote-text,
+.thor {
   width: 60%;
 }
 
@@ -126,5 +128,24 @@ button {
 .information h1 {
   font-size: 36px;
   color: #1f2937;
+  font-weight: 900;
+}
+
+.quote {
+  background-color: #e5e7eb;
+  flex-direction: column;
+  align-items: center;
+  padding: 120px 40px;
+}
+
+.quote-text {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 0;
+}
+
+.thor {
+  text-align: right;
+  font-size: 20px;
   font-weight: 900;
 }
